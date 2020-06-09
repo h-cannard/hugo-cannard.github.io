@@ -115,7 +115,7 @@ margin-top: 50px;
 #skills {
 	background-size: cover;
 	background-position: center;
-	background-color: #DADADA;
+	background-color: #BABABA;
 	background-attachment: fixed;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -135,7 +135,7 @@ margin-top: 50px;
 }
 
 #skills h3 {
-	color: #00C2FF;
+	color: #fff;
 	font-size: 22px;
 }
 
@@ -179,7 +179,7 @@ margin-top: 50px;
 #course {
 	background-size: cover;
 	background-position: center;
-	background-color: #DADADA;
+	background-color: #BABABA;
 	background-attachment: fixed;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -242,6 +242,7 @@ li.timeline-item::before {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+
 h5 {
 	color: #00C2FF;
 	font-size: 18px;
@@ -252,4 +253,16 @@ h5 {
 	font-size: 25px;
 	margin-bottom: 20px;
 	margin-top: 25px;
+}
+
+.footer {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	max-width: 100%;
+	background-color: #212529;
+}
+
+.footer p {
+	color: white;
+
 }
