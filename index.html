@@ -22,13 +22,16 @@
 		  		<a href="#aboutme">A propos</a>
 		  		<a href="#course">Expérience et parcours</a>
 		  		<a href="#contact">Contact</a>
+		  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				    <i class="fa fa-bars"></i>
+				  </a>
 		</div>
 	</div>
 		
 
 
 	<div class="full-screen">
-		<h1>Salut, je suis <b>Hugo Cannard</b></h1>
+		<h1>Je m'appelle <b>Hugo Cannard</b></h1>
 		<h2>Je suis... Assistant Webmarketing</h2>
 		<a class="btn btn-primary" style="margin-top: 30px;" href="#aboutme">En savoir plus</a>
 	</div>
@@ -141,9 +144,14 @@
                 				<h2>Expériences et parcours</h2>
 				                <!-- Timeline -->
 				                <ul class="timeline">
+				                	<li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+				                        <div class="timeline-arrow"></div>
+				                        <h5>COM & COMPANY</h5><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2020 - 2021</span>
+				                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+				                    </li>
 				                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
 				                        <div class="timeline-arrow"></div>
-				                        <h5>Les derniers seront les premiers</h5><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2020</span>
+				                        <h5>Les derniers seront les premiers</h5><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2019 - 2020</span>
 				                        <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
 				                    </li>
 				                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
@@ -191,18 +199,18 @@
 						  </div>
 						  <div class="form-group">
 						    <label for="tel">Téléphone </label>
-						    <input type="tel" class="form-control" name="phone" placeholder="Saisir votre numéro de téléphone">
+						    <input type="tel" class="form-control" name="tel" placeholder="Saisir votre numéro de téléphone">
 						  </div>
 						  <div class="form-group">
 						    <label for="Sujet">Objet de votre demande</label>
-						    <input type="text" class="form-control" name="Sujet" placeholder="...">
+						    <input type="text" class="form-control" name="objet" placeholder="Quel est l'objet de votre demande ?">
 						  </div>
 						  <div class="form-group">
 						    <label for="Message">Message</label>
-						    <textarea class="form-control" name="Message" rows="3" placeholder="Saisir votre message"></textarea>
+						    <textarea class="form-control" name="message" rows="3" placeholder="Saisir votre message"></textarea>
 						  </div>
 						  <center>
-						  <a class="btn btn-primary" style="margin-bottom: 20px; margin-top: 20px;" href="mailto:h.cannard@sciencesu-lyon.fr?subject=Demande de contact concernant votre E-Portfolio">Me contacter</a>
+						  <a class="btn btn-primary" style="margin-bottom: 20px; margin-top: 20px;" href="mailto:hugo.cannard@orange.fr?subject=Demande de contact concernant votre E-Portfolio">Me contacter</a>
 						  </center>
 						</form>
 
@@ -232,5 +240,16 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+			</script>
 </body>
 </html>
